@@ -9,8 +9,8 @@
 #include <set>
 #include <vector>
 #include <cctype>
-#include <algorithm> 
-#include <regex>
+#include <iomanip>
+#include <algorithm>
 
 struct Data{
     int number;

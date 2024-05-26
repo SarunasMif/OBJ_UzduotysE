@@ -114,6 +114,7 @@
     "xmemory": "cpp",
     "xtr1common": "cpp",
     "xutility": "cpp",
-    "regex": "cpp"
+    "regex": "cpp",
+    "iomanip": "cpp"
   }
 }

@@ -7,10 +7,9 @@ void Printfile(map<string, Data>& map) {
 
    Write.open("Output.txt");
 
-
    for (const auto &Adata : map) {
       if (Adata.second.number > 1) {
-         Write << Adata.first << " was used " << Adata.second.number << " times." << endl;
+         Write << "[" << Adata.first << "] was used [" << Adata.second.number << "] times." << endl;
       }
    }
 
@@ -34,16 +33,24 @@ void BuildReff(map<string, Data>& map) {
 
    Write.open("Refference_table.txt");
 
+   Write << left << setw(20) << "Words" << "| " << setw(51) << "Lines" << endl;
+   Write << "-----------------------------------------------------------------------" << endl;
+
    for (const auto &Adata : map) {
-      if (Adata.second.number > 1) {
-         Write << Adata.first << " was found in lines ";
+      const string& word = Adata.first;
+      const Data& data = Adata.second;
 
-         for (int line : Adata.second.lines) {
-            Write << line << " ";
+      if (data.number > 1) {
+         Write << left << setw(20) << word << "|";
+
+         for (int line : data.lines) {
+            Write << line << "; ";
          }
-
          Write << endl;
+         Write << "--------------------|--------------------------------------------------" << endl;
+
       }
+
    }
 
    Write.close();

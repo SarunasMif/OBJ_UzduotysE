@@ -1,0 +1,173 @@
+a was found in lines 1 3 4 5 7 10 13 16 17 18 
+academic was found in lines 2 3 4 5 
+academic-related was found in lines 6 7 9 
+accepted was found in lines 4 
+achieve was found in lines 2 3 4 
+action was found in lines 4 5 
+address was found in lines 2 6 13 
+advantages was found in lines 15 16 18 
+affects was found in lines 18 
+all was found in lines 13 14 16 
+ambitious was found in lines 2 4 5 
+amount was found in lines 15 16 
+an was found in lines 2 4 6 15 16 17 
+and was found in lines 2 3 4 5 6 7 8 9 10 12 13 15 16 17 18 
+another was found in lines 4 12 16 17 
+anxiety was found in lines 3 
+approach was found in lines 3 4 16 
+are was found in lines 2 3 4 6 7 8 10 11 12 13 15 16 17 
+as was found in lines 7 8 9 
+attendance was found in lines 12 13 
+be was found in lines 2 4 7 8 13 
+because was found in lines 3 7 
+become was found in lines 6 12 
+being was found in lines 4 8 
+better was found in lines 3 4 
+both was found in lines 15 18 
+budgeting was found in lines 16 
+bullied was found in lines 8 
+bullying was found in lines 8 9 
+by was found in lines 2 4 5 8 9 13 15 16 17 
+can was found in lines 2 3 4 8 12 13 
+cash was found in lines 15 16 
+cause was found in lines 3 4 
+caused was found in lines 9 13 
+causes was found in lines 2 6 13 
+certain was found in lines 10 11 13 
+change was found in lines 4 5 18 
+chronic was found in lines 12 
+classes was found in lines 10 11 
+consequences was found in lines 3 16 
+consequently was found in lines 8 17 
+disadvantages was found in lines 15 18 
+do was found in lines 3 7 8 11 16 
+early-warning was found in lines 10 12 13 
+education was found in lines 3 4 10 13 
+educational was found in lines 2 3 4 
+effect was found in lines 3 16 17 
+effects was found in lines 16 17 
+end was found in lines 4 16 17 
+essay was found in lines 2 6 15 
+ethics was found in lines 7 11 
+example was found in lines 4 8 16 17 
+exams was found in lines 7 11 
+expectations was found in lines 2 3 5 
+experience was found in lines 2 4 16 17 
+extra was found in lines 3 4 
+face was found in lines 1 2 5 
+factors was found in lines 6 7 9 13 
+family was found in lines 2 3 5 
+financial was found in lines 15 16 17 18 
+first was found in lines 7 11 
+for was found in lines 2 3 4 7 8 10 11 12 15 16 17 
+forced was found in lines 4 16 
+fundamental was found in lines 4 5 18 
+goals was found in lines 2 3 4 5 
+has was found in lines 3 6 18 
+have was found in lines 3 13 16 
+having was found in lines 16 17 
+help was found in lines 11 12 
+high was found in lines 3 4 5 
+higher was found in lines 3 4 
+how was found in lines 11 17 18 
+i was found in lines 2 5 18 
+important was found in lines 5 18 
+imposing was found in lines 4 
+impulsive was found in lines 17 
+in was found in lines 2 3 4 5 6 8 9 11 13 16 17 18 
+increasingly was found in lines 4 6 
+independence was found in lines 16 
+induces was found in lines 3 4 
+informing was found in lines 11 13 
+instance was found in lines 3 7 16 17 
+into was found in lines 4 17 
+is was found in lines 2 3 4 5 9 11 12 13 15 16 17 18 
+issue was found in lines 2 6 13 
+issues was found in lines 6 8 9 
+it was found in lines 4 16 18 
+kids was found in lines 3 
+later was found in lines 3 17 18 
+lead was found in lines 4 8 
+lessons was found in lines 7 9 11 
+life was found in lines 3 17 18 
+like was found in lines 7 9 11 
+literacy was found in lines 15 16 17 18 
+major was found in lines 2 3 
+make was found in lines 5 18 
+may was found in lines 7 8 17 
+misunderstand was found in lines 17 
+money was found in lines 14 15 16 17 18 
+much was found in lines 5 17 
+naturally was found in lines 7 17 
+negative was found in lines 17 
+not was found in lines 5 7 8 11 16 17 
+of was found in lines 1 2 3 4 6 8 10 12 13 15 16 17 
+on was found in lines 3 4 5 10 13 15 16 17 18 
+one was found in lines 16 17 
+opposite was found in lines 3 4 
+or was found in lines 6 8 16 
+other was found in lines 11 13 
+overall was found in lines 3 5 15 18 
+parents was found in lines 3 14 15 18 
+peer-related was found in lines 6 8 9 
+people was found in lines 4 15 
+perform was found in lines 3 4 
+pocket was found in lines 14 15 16 17 18 
+positive was found in lines 16 
+practical was found in lines 3 16 
+prepare was found in lines 7 11 
+pressure was found in lines 1 2 3 4 5 
+primary was found in lines 3 4 
+problem was found in lines 5 6 13 
+profound was found in lines 3 17 
+pupils was found in lines 2 3 7 11 
+put was found in lines 4 5 
+school was found in lines 1 2 3 4 5 6 8 
+schools was found in lines 6 12 13 
+self-imposed was found in lines 4 5 
+set was found in lines 2 4 
+short was found in lines 4 9 
+skip was found in lines 7 8 11 
+so was found in lines 3 5 16 
+solution was found in lines 3 11 12 
+solutions was found in lines 6 10 
+some was found in lines 15 16 
+soon-to-be-graduates was found in lines 4 7 
+spending was found in lines 16 17 
+students was found in lines 1 2 3 4 5 7 8 12 13 
+such was found in lines 8 9 
+systems was found in lines 10 12 13 
+take was found in lines 3 4 5 13 
+teenagers was found in lines 15 16 
+teens was found in lines 15 16 17 
+teens€ was found in lines 15 16 17 
+tension was found in lines 3 4 
+that was found in lines 2 3 4 5 13 15 16 17 18 
+the was found in lines 2 3 4 6 7 11 13 15 16 17 
+their was found in lines 3 4 8 14 15 16 17 18 
+them was found in lines 4 5 7 16 
+themselves was found in lines 2 4 
+therefore was found in lines 3 16 
+they was found in lines 3 4 5 7 8 12 16 17 18 
+think was found in lines 4 5 18 
+this was found in lines 2 4 6 13 15 16 17 
+those was found in lines 7 16 
+to was found in lines 2 3 4 5 6 7 8 11 12 13 14 15 16 17 
+truancy was found in lines 6 7 8 9 10 11 12 13 
+university was found in lines 4 
+up was found in lines 3 4 16 17 
+useful was found in lines 7 10 11 13 
+useless was found in lines 7 9 
+value was found in lines 17 
+view was found in lines 7 18 
+ways was found in lines 5 11 13 
+what was found in lines 3 5 18 
+which was found in lines 3 7 11 
+while was found in lines 4 15 
+who was found in lines 8 12 16 
+why was found in lines 7 10 11 13 
+will was found in lines 2 6 15 17 
+with was found in lines 3 8 16 
+without was found in lines 6 7 
+work was found in lines 17 
+would was found in lines 3 7 

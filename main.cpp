@@ -14,7 +14,7 @@ void Printfile(map<string, Data>& map) {
    }
 
    Write.close();
-}
+} // prints out word and how many times ot was used
 
 void printLinks(map<int, string>& map) {
    ofstream write;
@@ -26,7 +26,7 @@ void printLinks(map<int, string>& map) {
    }
 
    write.close();
-}
+} // prints out found links
 
 void BuildReff(map<string, Data>& map) {
    ofstream Write;
@@ -55,13 +55,13 @@ void BuildReff(map<string, Data>& map) {
 
    Write.close();
 
-} // Padaryti, kad atrodytu kaip lentele
+} // Prints a cross-reference table
 
 void ToLower(string& word) {
    for (char &Adata : word) {
       Adata = tolower(Adata);
    }
-}
+} // Thes words and makes every letter lowercase
 
 vector<string> cleanline(string& line) {
    vector<string> cleaned_line;
@@ -82,7 +82,7 @@ vector<string> cleanline(string& line) {
    }
 
    return cleaned_line;
-}
+} // Takes line and removes punctuations abd returns line to ReadFile
 
 vector<string> getURL(string& line) {
    vector<string> URLS;
@@ -102,7 +102,7 @@ vector<string> getURL(string& line) {
    }
 
    return URLS;
-}
+} // Takes line and finds url in it and sends it back to ReadLink
 
 void ReadFile(string filename, map<string, Data>& map) {
    ifstream Read;
@@ -127,7 +127,7 @@ void ReadFile(string filename, map<string, Data>& map) {
    BuildReff(map);
 
    Read.close();
-}
+} // Reads the text file and inputs data to associative arrays
 
 void ReadLink(string filename, map<int, string>& map) {
    ifstream read;
@@ -148,7 +148,7 @@ void ReadLink(string filename, map<int, string>& map) {
    printLinks(map);
 
    read.close();
-}
+} // Reads the text file and inputs data to associative arrays
 
 int main() {
    string i_filename = "Input.txt";
@@ -156,6 +156,7 @@ int main() {
 
    map<string, Data> Info;
    map<int, string> Links;
+   // Asociative array
 
    ReadFile(i_filename, Info);
    ReadLink(l_filename, Links);

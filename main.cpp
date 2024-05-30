@@ -66,11 +66,11 @@ void ToLower(string& word) {
 vector<string> cleanline(string& line) {
    vector<string> cleaned_line;
    string word;
-   size_t found = line.find_first_of(",.!:;?'()[]{}…’–");
+   size_t found = line.find_first_of(",.!:;?'()[]{}…’–/$#%^&*@$");
 
    while (found != string::npos) {
       line.erase(found, 1);
-      found = line.find_first_of(",.!:;?'()[]{}…’–", found + 1);
+      found = line.find_first_of(",.!:;?'()[]{}…’–/$#%^&*@$", found + 1);
    }
 
    line.erase(remove(line.begin(), line.end(), '"'), line.end());
@@ -87,18 +87,40 @@ vector<string> cleanline(string& line) {
 vector<string> getURL(string& line) {
    vector<string> URLS;
    string word;
-   size_t found = line.find("http");
+   vector<string> Url_ends_gen = {".com", ".edu", ".gov", ".org", ".mil", ".net"};
+   vector<string> Url_ends_nat = {".au", ".in", ".br", ".it", ".ca", ".mx", ".fr", ".tw", ".il", ".uk", ".lt", ".lv", ".kr", ".jp", ".is", ".ie", ".gr", ".ge", ".ee", ".be", ".at", ".al",
+   ".de", ".cz", ".cy", ".ru", ".dm", ".cn", ".eu", ".us", ".ua", ".tw", ".tr", ".sk", ".si", ".se", ".rs", ".pt", ".pl", ".nz", ".no", ".md", ".id", ".hr", ".fi", ".ca", ".by", ".am"};
    istringstream Line(line);
 
    while (Line >> word) {
-      if (word.find("http") != string::npos) {
 
-         if (word.find(".") != string::npos) {
-            word.erase(remove(word.end() - 1, word.end(), '.'), word.end());
-         }// If the link is at the end of the sentence the . at the end of the link is removed
+      for (string& end : Url_ends_gen) {
 
-         URLS.push_back(word);
+         if (word.find(end) != string::npos) {
+
+            if (word.find(".") != string::npos) {
+               word.erase(remove(word.end() - 1, word.end(), '.'), word.end());
+               word.erase(remove(word.end() - 1, word.end(), '/'), word.end());
+               word.erase(remove(word.end() - 1, word.end(), ','), word.end());
+            }// If the link is at the end of the sentence the . at the end of the link is removed
+
+            URLS.push_back(word);
+         }
       }
+
+      for (string& end : Url_ends_nat) {
+         if (word.find(end) != string::npos) {
+
+            if (word.find(".") != string::npos) {
+               word.erase(remove(word.end() - 1, word.end(), '.'), word.end());
+               word.erase(remove(word.end() - 1, word.end(), '/'), word.end());
+               word.erase(remove(word.end() - 1, word.end(), ','), word.end());
+            }// If the link is at the end of the sentence the . at the end of the link is removed
+
+            URLS.push_back(word);
+         }
+      }
+
    }
 
    return URLS;
@@ -151,8 +173,8 @@ void ReadLink(string filename, map<int, string>& map) {
 } // Reads the text file and inputs data to associative arrays
 
 int main() {
-   string i_filename = "Input.txt";
-   string l_filename = "Links.txt";
+   string i_filename = "test.txt";
+   string l_filename = "test.txt";
 
    map<string, Data> Info;
    map<int, string> Links;
